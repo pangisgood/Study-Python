@@ -16,6 +16,7 @@ SCROLL_PAUSE_TIME = 1
 
 foldername="한동대김준혁"
 
+##
 
 # Get scroll height
 last_height = driver.execute_script("return document.body.scrollHeight")
