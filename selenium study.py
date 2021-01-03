@@ -8,7 +8,7 @@ driver = webdriver.Chrome()
 driver.get("https://www.google.co.kr/imghp?hl=ko&tab=wi&ogbl")
 elem = driver.find_element_by_name("q")
 
-elem.send_keys("한동대 김준혁")
+elem.send_keys("한동대 김준혁")  #검색할 키워드
 elem.send_keys(Keys.RETURN)
 SCROLL_PAUSE_TIME = 1
 
@@ -16,7 +16,7 @@ SCROLL_PAUSE_TIME = 1
 
 foldername="한동대김준혁"
 
-##
+
 
 # Get scroll height
 last_height = driver.execute_script("return document.body.scrollHeight")
